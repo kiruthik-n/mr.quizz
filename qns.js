@@ -59,6 +59,7 @@ function submit(){
         document.getElementById("result").innerHTML=`KEEP LEARNING ! 
         Your Score is : ${score} / 5`;
     }
+ document.getElementById("submit").disabled=true;
    
         //    console.log(answers);
            // console.log(selected);
